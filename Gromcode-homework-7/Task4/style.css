@@ -1,7 +1,7 @@
 input:checked {
     margin-left: 50px;
 }
-label > input::first-line {
+label {
     text-transform: uppercase;
 }
 #special::first-letter {
