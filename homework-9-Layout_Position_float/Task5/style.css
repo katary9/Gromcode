@@ -9,14 +9,15 @@
 li {
     color: white;
     list-style-type: none;
+    line-height: inherit;
 }
 .nav-item {
     float: left;
     margin-left: 16px;
+    
 }
 .navigation {
-    position: relative;
-    top: 10px;
+    position: absolute;
     height: 40px;
 }
 .content {
@@ -28,8 +29,11 @@ li {
     height: 200px;
     background-color: aquamarine;
     position: absolute;
-    left: 50%;
-    top: 50%;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
 }
 .ear {
     width: 40px;
