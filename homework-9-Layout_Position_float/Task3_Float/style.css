@@ -15,7 +15,10 @@
 }
 .sidebar {
     background-color: grey;
+    width: 20%;
+    float: right;
 }
 .footer {
     background-color: green;
+    clear: both;
 }
