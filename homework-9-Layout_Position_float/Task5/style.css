@@ -5,10 +5,11 @@
     left: 0;
     top: 0;
     width: 100%;
+    z-index: 1;
 }
 .nav-item {
     position: relative;
-    top: -15px;
+    top: -16px;
     color: white;
     list-style-type: none;
     line-height: 40px;
