@@ -1,0 +1,52 @@
+* {
+  box-sizing: border-box;
+}
+/* Первій вариант, расположить по центру
+.image-container {
+  display: flex;
+  justify-content: center;
+}
+.main-img {
+  max-width: 100%;
+}
+Второй вариант
+
+.image-container {
+  display: flex;
+}
+.main-img {
+  max-width: 100%;
+  margin: 0 auto;
+}
+
+Третий вариант:
+*/
+.image-container {
+}
+.main-img {
+  margin: 50px auto;
+  display: block;
+  max-width: 100%;
+  border-radius: 20px;
+}
+.gallery {
+  display: flex;
+}
+.card {
+  margin: 16px;
+  box-shadow: 0px 7px 18px -8px rgba(0, 0, 0, 0.75);
+}
+
+figcaption {
+  line-height: 30px;
+  text-align: center;
+}
+.opacity {
+  filter: opacity(50%);
+}
+.blur {
+  filter: blur(4px);
+}
+.invert {
+  filter: invert(100%);
+}
