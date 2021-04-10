@@ -1,3 +1,6 @@
+* {
+  box-sizing: border-box;
+}
 table {
   width: 500px;
   margin: 16px;
@@ -7,12 +10,12 @@ td,
 th {
   border: 1px solid #000;
   border-collapse: collapse;
+  height: 40px;
 }
 td,
 th {
   padding: 4px;
   text-align: right;
-  line-height: 40px;
 }
 div {
   overflow-x: auto;
