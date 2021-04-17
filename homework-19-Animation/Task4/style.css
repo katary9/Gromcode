@@ -31,6 +31,6 @@
     top: 100px;
   }
   to {
-    left: calc(50vh - 50px);
+    top: calc(50vh - 50px);
   }
 }
