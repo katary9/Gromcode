@@ -1,0 +1,45 @@
+.container {
+}
+.square_nav {
+  background-color: #ff7f50;
+  min-height: 200px;
+  display: flex;
+  flex-grow: 1;
+}
+.square_list {
+  background-color: #006400;
+  display: flex;
+  min-height: 200px;
+  flex-grow: 1;
+}
+.square_news {
+  background-color: #0ff;
+  display: flex;
+  min-height: 200px;
+}
+span {
+  background-color: #faebd7;
+  text-transform: lowercase;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  padding: 8px;
+  border-radius: 4px;
+  margin: auto;
+}
+@media screen and (min-width: 600px) {
+  .container {
+    display: flex;
+  }
+}
+@media screen and (min-width: 900px) {
+  main {
+    display: flex;
+  }
+
+  .container {
+    display: flex;
+    flex-grow: 2;
+  }
+  .square_news {
+    flex-grow: 1;
+  }
+}
