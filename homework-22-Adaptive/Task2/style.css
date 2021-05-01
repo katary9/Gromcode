@@ -5,13 +5,11 @@
   background-color: #ff7f50;
   min-height: 200px;
   display: flex;
-  flex-grow: 1;
 }
 .square_list {
   background-color: #006400;
   display: flex;
   min-height: 200px;
-  flex-grow: 1;
 }
 .square_news {
   background-color: #0ff;
@@ -29,6 +27,9 @@ span {
 @media screen and (min-width: 600px) {
   .container {
     display: flex;
+  }
+  .square {
+    flex-grow: 1;
   }
 }
 @media screen and (min-width: 900px) {
