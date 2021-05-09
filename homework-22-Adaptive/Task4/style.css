@@ -31,11 +31,11 @@ button {
   padding: 0;
 }
 .nav-list-item {
-  background-color: #808080;
   padding-bottom: 0.5em;
   line-height: 2em;
 }
 a {
+  background-color: #808080;
   color: #fff;
   text-decoration: none;
   display: block;
