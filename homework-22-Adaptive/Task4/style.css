@@ -45,7 +45,7 @@ a {
   text-overflow: ellipsis;
 }
 @media screen and (min-width: 600px) {
-  .header {
+  button {
     display: none;
   }
 }
