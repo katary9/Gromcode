@@ -9,8 +9,10 @@ body {
   align-items: center;
 }
 .container {
+  display: flex;
+  flex-direction: column;
   @include for-medium-up {
-    display: flex;
+    flex-direction: row;
   }
 }
 .square {
