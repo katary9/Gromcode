@@ -10,9 +10,8 @@ body {
 }
 .container {
   display: flex;
-  flex-direction: column;
-  @include for-medium-up {
-    flex-direction: row;
+  @include portrait {
+    flex-direction: column;
   }
 }
 .square {
