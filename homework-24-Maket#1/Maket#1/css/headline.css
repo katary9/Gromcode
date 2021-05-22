@@ -32,6 +32,10 @@
   font-weight: bold;
   line-height: 13px;
 }
+.headline__image {
+  width: 100%;
+  margin-bottom: 36px;
+}
 @media screen and (max-width: 399px) {
   .headline__action-btn {
     width: 100%;
