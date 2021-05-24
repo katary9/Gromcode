@@ -22,7 +22,7 @@
   }
 
   &__item-text {
-    color: #fff;
+    color: $text-color-secondary;
     text-transform: uppercase;
   }
   &__item_active {
@@ -48,7 +48,7 @@
   display: none;
 
   &__item {
-    color: #fff;
+    color: $text-color-secondary;
     list-style-type: none;
     padding-right: 8px;
     padding-left: 8px;
