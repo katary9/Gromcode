@@ -31,7 +31,11 @@
   background-image: url(../icons/icons-mob/menu.png);
   display: inline-block;
 }
-
+@media screen and (max-width: 399px) {
+  .header .logo__description {
+    display: none;
+  }
+}
 @media screen and (min-width: 400px) {
   .top-section {
     background-color: #f3c6bd;
@@ -57,11 +61,16 @@
   .header__menu-button {
     display: none;
   }
+  .logo {
+    display: flex;
+  }
   .logo__description {
+    display: block;
     line-height: 25px;
     color: #2b292d;
     opacity: 0.6;
   }
+
   .logo__name {
     font-size: 20px;
     line-height: 25px;
@@ -93,23 +102,21 @@
   background-image: url(../icons/Arrow.png);
   margin-left: 11px;
 }
-.logo {
+.header .logo {
   display: flex;
 }
-.logo__image {
+.header .logo__image {
   width: 48px;
   height: 48px;
   margin-right: 13px;
 }
-.logo__name {
+.header .logo__name {
   font-size: 20px;
   line-height: 25px;
   font-weight: 700;
 }
-.logo__description {
-  display: none;
-}
-.logo__text {
+
+.header .logo__text {
   display: flex;
   flex-direction: column;
   justify-content: center;
