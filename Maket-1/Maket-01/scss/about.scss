@@ -1,0 +1,41 @@
+.about {
+  background: #f4f5f7;
+  padding: 46px 15px;
+  &__wrapper {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+.article {
+  margin-bottom: 20px;
+  &__title {
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 32px;
+    color: #2b292d;
+  }
+  &__text {
+    font-size: 22px;
+    color: #2b292d;
+    margin-top: 8px;
+  }
+}
+.about {
+  @include for-large-up {
+    padding: 77px 131px 76px 130px;
+  }
+}
+.about__wrapper {
+  @include for-large-up {
+    width: 1140px;
+    flex-direction: row;
+  }
+}
+.article {
+  @include for-large-up {
+    margin-right: 29px;
+    margin-bottom: 0;
+  }
+}

@@ -1,0 +1,107 @@
+.headline {
+  background-image: none;
+  width: 100%;
+
+  @include for-large-up {
+    background-image: url(../img/fon-header.png);
+    background-repeat: no-repeat;
+    background-position: 579px 0;
+    padding-bottom: 126px;
+    margin-top: 76px;
+  }
+
+  &__wrapper {
+    margin: 35px 15px 33px 15px;
+
+    @include for-large-up {
+      margin: auto;
+      width: 1140px;
+    }
+  }
+  &__title {
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 50px;
+    letter-spacing: -0.3125px;
+    color: #2b292d;
+
+    @include for-large-up {
+      width: 754px;
+      height: 165px;
+      font-weight: bold;
+      font-size: 80px;
+      line-height: 78px;
+      letter-spacing: -0.5px;
+      color: #2b292d;
+      margin: 0;
+    }
+  }
+  &__description {
+    margin-top: 24px;
+    margin-bottom: 0px;
+    font-size: 24px;
+    line-height: 34px;
+
+    @include for-large-up {
+      margin-top: 34px;
+      margin-bottom: 0px;
+      height: 102px;
+      width: 456px;
+      font-size: 24px;
+      line-height: 34px;
+    }
+  }
+  &__action {
+    margin-top: 30px;
+    margin-bottom: 33px;
+
+    @include for-large-up {
+      margin-top: 58px;
+      margin-bottom: 126;
+      display: flex;
+    }
+  }
+  &__learn-more-btn {
+    margin-top: 15px;
+    width: 158px;
+    height: 48px;
+    border-radius: 2px;
+    border: none;
+    color: $text-color-blue-light;
+    font-weight: bold;
+    line-height: 13px;
+
+    @include for-large-up {
+      width: 158px;
+      height: 48px;
+      border-radius: 2px;
+      border: none;
+      color: $text-color-blue-light;
+      font-weight: bold;
+      line-height: 13px;
+      margin-left: 10px;
+      margin-top: 0px;
+    }
+  }
+  &__image {
+    width: 100%;
+    margin-bottom: 36px;
+
+    @include for-large-up {
+      display: none;
+    }
+  }
+  &__action-btn {
+    @include for-large-down {
+      width: 100%;
+    }
+  }
+}
+/*
+.headline__banner {
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 796px;
+  height: 448px;
+} */
