@@ -16,7 +16,7 @@
     display: none;
     @include for-large-up {
       display: block;
-      border-top: 1px solid $text-color-primary;
+      border-top: 1px solid #2b292d;
       opacity: 0.1;
       margin: 0;
       width: 100%;
@@ -98,7 +98,7 @@
   @include for-large-down {
     display: block;
     line-height: 25px;
-    color: $text-color-primary;
+    color: #2b292d;
     opacity: 0.6;
   }
 }
@@ -128,7 +128,7 @@
     font-size: 22px;
     line-height: 28px;
     font-weight: bold;
-    color: $text-color-primary;
+    color: #2b292d;
     @include for-large-up {
       margin-top: 0px;
     }

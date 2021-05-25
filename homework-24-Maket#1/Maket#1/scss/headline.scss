@@ -23,7 +23,7 @@
     font-size: 50px;
     line-height: 50px;
     letter-spacing: -0.3125px;
-    color: $text-color-primary;
+    color: #2b292d;
 
     @include for-large-up {
       width: 754px;
@@ -32,7 +32,7 @@
       font-size: 80px;
       line-height: 78px;
       letter-spacing: -0.5px;
-      color: $text-color-primary;
+      color: #2b292d;
       margin: 0;
     }
   }
