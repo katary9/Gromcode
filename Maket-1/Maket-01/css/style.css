@@ -208,7 +208,7 @@ html {
   .headline__title {
     width: 754px;
     height: 165px;
-    font-weight: bold;
+    font-weight: 700;
     font-size: 80px;
     line-height: 78px;
     letter-spacing: -0.5px;
@@ -770,7 +770,7 @@ html {
 }
 @media screen and (min-width: 1400px) {
   .order__column {
-    margin-right: 121px;
+    margin-right: 123px;
   }
 }
 @media screen and (min-width: 1400px) {
@@ -892,6 +892,7 @@ html {
     font-size: 56px;
     line-height: 56px;
     letter-spacing: -0.5px;
+    margin-top: 24px;
   }
 }
 .audience__description {
