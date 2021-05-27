@@ -73,6 +73,7 @@
     height: 48px;
     width: 100%;
     text-align: center;
+    font-size: $base-font-size;
     line-height: 13px;
 
     @include for-large-up {
@@ -87,6 +88,7 @@
   }
 
   &__button {
+    font-size: $base-font-size;
     margin-top: 12px;
     width: 100%;
     @include for-large-up {
@@ -103,5 +105,6 @@
   }
 
   &__terms-link {
+    font-size: 14px;
   }
 }

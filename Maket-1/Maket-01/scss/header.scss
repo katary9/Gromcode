@@ -21,6 +21,7 @@
   }
 
   &__button {
+    font-size: $base-font-size;
     display: none;
     @include for-large-up {
       display: block;
@@ -55,6 +56,7 @@
     margin-right: 75px;
   }
   &__item {
+    font-size: $base-font-size;
     color: #2b292d;
     text-decoration: none;
     line-height: 25px;
@@ -125,6 +127,7 @@
 }
 
 .header .logo__text {
+  font-size: $base-font-size;
   display: flex;
   flex-direction: column;
   justify-content: center;

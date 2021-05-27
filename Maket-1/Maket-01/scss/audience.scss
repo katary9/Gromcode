@@ -63,6 +63,7 @@
   }
 
   &__action-button {
+    font-size: $base-font-size;
     width: 100%;
     @include for-large-up {
       width: 160px;
