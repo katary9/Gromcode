@@ -11,7 +11,7 @@ body {
   border: none;
   text-transform: uppercase;
   font-family: Arial, Helvetica, sans-serif;
-  font-weight: 700;
+  font-weight: 800;
   margin: auto;
   animation: jump 0.5s 0.4s ease-in-out, spin 0.5s ease-in-out,
     hide 1s 2s ease forwards;

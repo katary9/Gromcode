@@ -64,7 +64,7 @@
     }
   }
   &__item_selected {
-    font-weight: 700;
+    font-weight: 800;
   }
   &__arrow {
     display: inline-block;
@@ -92,7 +92,7 @@
     @include for-large-up {
       font-size: 20px;
       line-height: 25px;
-      font-weight: 700;
+      font-weight: 800;
     }
   }
   &__image {
@@ -121,7 +121,7 @@
 .header .logo__name {
   font-size: 20px;
   line-height: 25px;
-  font-weight: 700;
+  font-weight: 800;
 }
 
 .header .logo__text {

@@ -29,7 +29,7 @@ html {
   color: #fff;
   width: 160px;
   height: 48px;
-  font-weight: 700;
+  font-weight: 800;
   border-radius: 2px;
   border: none;
 }
@@ -109,7 +109,7 @@ html {
   margin-right: 0;
 }
 .navigation__item_selected {
-  font-weight: 700;
+  font-weight: 800;
 }
 .navigation__arrow {
   display: inline-block;
@@ -136,7 +136,7 @@ html {
   .logo__name {
     font-size: 20px;
     line-height: 25px;
-    font-weight: 700;
+    font-weight: 800;
   }
 }
 @media screen and (min-width: 1400px) {
@@ -166,7 +166,7 @@ html {
 .header .logo__name {
   font-size: 20px;
   line-height: 25px;
-  font-weight: 700;
+  font-weight: 800;
 }
 
 .header .logo__text {
@@ -198,7 +198,7 @@ html {
   }
 }
 .headline__title {
-  font-weight: 700;
+  font-weight: 800;
   font-size: 50px;
   line-height: 50px;
   letter-spacing: -0.3125px;
@@ -208,7 +208,7 @@ html {
   .headline__title {
     width: 754px;
     height: 165px;
-    font-weight: 700;
+    font-weight: 800;
     font-size: 80px;
     line-height: 78px;
     letter-spacing: -0.5px;
@@ -250,7 +250,7 @@ html {
   border-radius: 2px;
   border: none;
   color: #3040c4;
-  font-weight: 700;
+  font-weight: 800;
   line-height: 13px;
 }
 @media screen and (min-width: 1400px) {
@@ -260,7 +260,7 @@ html {
     border-radius: 2px;
     border: none;
     color: #3040c4;
-    font-weight: 700;
+    font-weight: 800;
     line-height: 13px;
     margin-left: 10px;
     margin-top: 0px;
@@ -303,7 +303,7 @@ html {
   margin-bottom: 20px;
 }
 .article__title {
-  font-weight: 700;
+  font-weight: 800;
   font-size: 22px;
   line-height: 32px;
   color: #2b292d;
@@ -406,7 +406,7 @@ html {
 }
 @media screen and (min-width: 1400px) {
   .features__subtitle {
-    font-weight: 700;
+    font-weight: 800;
     font-size: 22px;
     line-height: 34px;
     color: #009b4d;
@@ -414,7 +414,7 @@ html {
 }
 @media screen and (min-width: 1400px) {
   .features__title {
-    font-weight: 700;
+    font-weight: 800;
     font-size: 56px;
     line-height: 56px;
     letter-spacing: -0.5px;
@@ -440,7 +440,7 @@ html {
 }
 @media screen and (min-width: 1400px) {
   .features__advantage-title {
-    font-weight: 700;
+    font-weight: 800;
     font-size: 22px;
     line-height: 26px;
     color: #3142c6;
@@ -467,7 +467,7 @@ html {
 @media screen and (min-width: 1400px) {
   .features__advantage-item-text {
     margin-left: 15px;
-    font-weight: 700;
+    font-weight: 800;
     font-size: 22px;
     line-height: 26px;
     color: #2b292d;
@@ -502,13 +502,13 @@ html {
   margin-top: 40px;
 }
 .features-mobile__subtitle {
-  font-weight: 700;
+  font-weight: 800;
   font-size: 22px;
   line-height: 34px;
   color: #009b4d;
 }
 .features-mobile__title {
-  font-weight: 700;
+  font-weight: 800;
   font-size: 40px;
   line-height: 40px;
   line-height: 40px;
@@ -640,7 +640,7 @@ html {
   .footer .logo__name {
     font-size: 20px;
     line-height: 25px;
-    font-weight: 700;
+    font-weight: 800;
   }
 }
 
@@ -680,7 +680,7 @@ html {
   margin-top: 30px;
   font-size: 22px;
   line-height: 28px;
-  font-weight: 700;
+  font-weight: 800;
   color: #2b292d;
 }
 @media screen and (min-width: 1400px) {
@@ -790,7 +790,7 @@ html {
 }
 .order__title {
   text-align: center;
-  font-weight: 700;
+  font-weight: 800;
   font-size: 40px;
   line-height: 40px;
   letter-spacing: -0.25px;
@@ -873,14 +873,14 @@ html {
 }
 .audience__subtitle {
   text-align: center;
-  font-weight: 700;
+  font-weight: 800;
   font-size: 22px;
   line-height: 34px;
 }
 .audience__title {
   margin-top: 17px;
   text-align: center;
-  font-weight: 700;
+  font-weight: 800;
   font-size: 40px;
   line-height: 40px;
   letter-spacing: -0.357143px;
@@ -888,7 +888,7 @@ html {
 }
 @media screen and (min-width: 1400px) {
   .audience__title {
-    font-weight: 700;
+    font-weight: 800;
     font-size: 56px;
     line-height: 56px;
     letter-spacing: -0.5px;
@@ -966,7 +966,7 @@ html {
 }
 .audience__card-figcaption {
   margin-top: 22px;
-  font-weight: 700;
+  font-weight: 800;
   font-size: 22px;
   line-height: 28px;
   text-align: center;
@@ -979,7 +979,7 @@ html {
   border-radius: 2px;
   border: none;
   color: #000000;
-  font-weight: 700;
+  font-weight: 800;
   line-height: 13px;
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.1), 0px 4px 6px rgba(0, 0, 0, 0.05),
     inset 0px 1px 0px rgba(255, 255, 255, 0.1);
